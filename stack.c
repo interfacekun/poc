@@ -11,7 +11,7 @@ void we_call(void){
 
 	buff[0] = 0;
 	buff[1] = 1;
-	buff[3] = (int)why_it_tun;
+	buff[3] = &why_it_tun;
 }
 
 int main(void){
